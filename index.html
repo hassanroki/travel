@@ -1,0 +1,643 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Travel and Tourism Management </title>
+		
+		<!--Swiper js link-->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		
+		<!-- font awesome cdn link  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		
+		<!-- custom css link -->
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<!-- Header section starts -->
+		<header>
+		
+			<div id="menu-bar" class="fas fa fa-bars"></div>
+			
+			<a href="#" class="logo"><span>T</span>ravel</a>
+			<nav class="navbar">
+		 	   <a href="#home">home</a>
+		 	   <a href="#book">book</a>
+		 	   <a href="#packages">packages</a>
+		  	  <a href="#services">services</a>
+			    <a href="#gallery">gallery</a>
+		  	  <a href="#review">review</a>
+		 	   <a href="#contact">contact</a>
+			</nav>
+		
+			<div class="icons">
+			    <i class="fas fa-search" id="search-btn"></i>
+			    <i class="fas fa-user" id="login-btn"></i>
+			</div>
+		
+			<form action="" class="search-bar-container">
+		 	   <input type="search" id="search-bar" placeholder="search here...">
+				<label for="search-bar" class="fas fa-search"></label>
+			
+			
+			</form>
+		</header>
+		
+	    <!-- Header section ends -->
+		
+		<!-- login from container starts -->
+		
+		<div class="login-form-container">
+		
+		    <i class="fas fa-times" id="form-close"></i>
+		
+		    <form action="">
+			    <h3>login</h3>
+				<input type="email" class="box" placeholder="Enter your email">
+				<input type="password" class="box" placeholder="Enter your password">
+				<input type="submit" value="login now" class="btn">
+				<input type="checkbox" id="remember">
+				<label for="remember">remember me</label>
+				<p>forget password?<a href="#">click here</a></p>
+				<p>don't have account?<a href="#">register now</a></p>
+			</form>
+		</div>
+		<!-- login from container ends -->
+		
+		<!-- Home Section Start -->
+		<section class="home" id="home">
+			<div class="content">
+				<h3>Travel is one of the common sources of knowledge</h3>
+				<p>Discover new place with us, Adventure awaits</p>
+				<a href="#" class="btn">Discover More</a>
+			</div>
+			
+			<div class="controls">
+				<span class="vid-btn active" data-src="videos/video1.mp4"></span>
+				<span class="vid-btn" data-src="videos/video-2.mp4"></span>
+				<span class="vid-btn" data-src="videos/video-3.mp4"></span>
+				<span class="vid-btn" data-src="videos/video-4.mp4"></span>
+				<span class="vid-btn" data-src="videos/video-5.mp4"></span>
+			</div>
+			
+			<div class="video-container">
+				<video src="videos/video1.mp4" id="video-slider" loop autoplay muted></video>
+			</div>
+		</section>
+		<!-- Home Section ends -->
+
+		<!-- Book Section Start -->
+		
+		<section class="book" id="book">
+			<h1 class="heading">
+				<span>B</span>
+				<span>o</span>
+				<span>o</span>
+				<span>k</span>
+				<span class="space"></span>
+				<span>n</span>
+				<span>o</span>
+				<span>w</span>
+			</h1>
+			
+			<div class="row">
+				<div class="image">
+					<img src="images/picture-1.jpg" alt="picture-1"/>
+				</div>
+				
+				<form action="">
+					<div class="inputBox">
+						<h3>Where to you go</h3>
+						<input type="text" placeholder="place name">
+					</div>
+					<div class="inputBox">
+						<h3>How many</h3>
+						<input type="number" placeholder="number of guests">
+					</div>
+					<div class="inputBox">
+						<h3>arrivals date</h3>
+						<input type="date">
+					</div>
+					<div class="inputBox">
+						<h3>leaving date</h3>
+						<input type="date">
+					</div>
+					<input type="submit" class="btn" value="book now">
+				</form>
+			</div>
+		</section>
+		
+		<!--Book Section ends-->
+		
+		<!--Package Section start-->
+			<section class="packages" id="packages">
+				<h1 class="heading">
+					<span>p</span>
+					<span>a</span>
+					<span>c</span>
+					<span>k</span>
+					<span>a</span>
+					<span>g</span>
+					<span>e</span>
+					<span>s</span>
+				</h1>
+				
+				<div class="box-container">
+				
+					<div class="box">
+						<img src="images/picture-2.jpg" alt="picture-2">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+						<p>Create a panache of memories with your love ones in galore to all the serenity.</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$70.00 <span>$100.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>
+					
+					<div class="box">
+						<img src="images/picture-3.jpg" alt="picture-3">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+						<p>Tourism in Sydney, Australia forms an important part of the city's economy.</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$150.00 <span>$180.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<img src="images/picture-4.jpg" alt="picture-4">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Landon</h3>
+						<p>London is one of the world's leading tourism destinations, & the city is famous tourist attractions.</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$1450.00 <span>$160.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>	
+
+					<div class="box">
+						<img src="images/picture-5.jpg" alt="picture-5">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Paris</h3>
+						<p>The French capital is one of the most romantic cities in Europe and the world's most visited cities</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$190.00 <span>$230.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<img src="images/picture-6.jpg" alt="picture-6">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Jaf-long</h3>
+						<p>Jaf-long is one of the most scenic spots. The main attractions to the local tourists are the beautiful hills of the Meghalaya state of India</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$50.00 <span>$70.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<img src="images/picture-7.jpg" alt="picture-7">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Nil-gi-ris </h3>
+						<p>The spectacular mountain ranges of Nilgiri and surroundings is filled with amazing attractions like the enchanting hills</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$70.00 <span>$100.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>	
+
+					<div class="box">
+						<img src="images/picture-8.jpg" alt="picture-8">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Cox'bazar</h3>
+						<p>Cox's Bazar is famous for its long natural sandy sea beach. It has the world's largest unbroken sea beach which stretches more than 120 km.</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$60.00 <span>$90.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>		
+
+					<div class="box">
+						<img src="images/picture-9.jpg" alt="picture-9">
+						<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>Sundarban</h3>
+						<p>Sundarban Tourism is one of the most beautiful and spectacular destinations in and around some of the regions in West Bengal.</p>
+						<div class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="price">$50.00 <span>$80.00</span></div>
+						<a href="#book" class="btn">book now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!--package Section ends-->
+		
+		<!--Searvices Section Start-->
+			
+		<section class="services" id="services">
+		
+				<h1 class="heading">
+					<span>s</span>
+					<span>e</span>
+					<span>r</span>
+					<span>v</span>
+					<span>i</span>
+					<span>c</span>
+					<span>e</span>
+					<span>s</span>
+				</h1>
+				
+			<div class="box-container">
+				<div class="box">
+					<i class="fas fa-hotel"></i>
+					<h3>Five Starts Hotel</h3>
+					<p>As a five-star property, such as premium dining options and personalized services to its guests. With no detail being overlooked, these hotels commonly even provides high-end, luxury toiletries for guests.</p>			
+				</div>
+
+				<div class="box">
+					<i class="fas fa-utensils"></i>
+					<h3>Food & Drink</h3>
+					<p>Food is typically something you eat with cutlery from a dish, although handheld foods such as burgers are the exception. A beverage is a liquid consumed from a vessel either from the brim of the vessel of through a straw.</p>			
+				</div>	
+
+				<div class="box">
+					<i class="fas fa-bullhorn"></i>
+					<h3>safty guide</h3>
+					<p>A traveller who is also a tourist is governed by the laws and regulations in force in the country which he visits. As a tourism professional, therefore, it is of vital conccnl to you that you are well versed in such regulatory controls that will affect your prospective clients.</p>			
+				</div>
+
+				<div class="box">
+					<i class="fas fa-plane"></i>
+					<h3>fastest travels</h3>
+					<p>As a rule sound travels slowest through gases, faster through liquids, and fastest through solids. The speed of light as it travels through air and space is much faster than that of sound</p>			
+				</div>
+
+			</div>
+		</section>
+		<!--Searvices Section Ends-->
+		
+		<!--Gallery Section Start-->
+		<section class="gallery" id="gallery">
+			<h1 class="heading">
+				<span>g</span>
+				<span>a</span>
+				<span>l</span>
+				<span>l</span>
+				<span>e</span>
+				<span>r</span>
+				<span>y</span>
+			</h1>
+			
+			<div class="box-container">
+				<div class="box">
+					<img src="images/picture-10.jpg" alt="picture-10"/>
+					<div class="content">
+						<h3>kashmir</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/picture-11.jpg" alt="picture-11"/>
+					<div class="content">
+						<h3>tajmahal</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/picture-12.jpg" alt="picture-12"/>
+					<div class="content">
+						<h3>rome</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/picture-13.jpg" alt="picture-13"/>
+					<div class="content">
+						<h3>sajek valley</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/picture-14.jpg" alt="picture-14"/>
+					<div class="content">
+						<h3>tanguar haor </h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/picture-15.jpg" alt="picture-15"/>
+					<div class="content">
+						<h3>rangamati</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/picture-16.jpg" alt="picture-16"/>
+					
+					<div class="content">
+						<h3>sent martin island</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+					
+				</div>
+
+				<div class="box">
+					<img src="images/picture-17.jpg" alt="picture-17"/>
+					
+					<div class="content">
+						<h3>Chittagong Hill</h3>
+						<a href="#" class="btn">See more</a>
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!--Gallery Section Ends-->
+		
+		<!--Review Section Start-->
+		
+		<section class="review" id="review">
+			<h1 class="heading">
+				<span>r</span>
+				<span>e</span>
+				<span>v</span>
+				<span>i</span>
+				<span>e</span>
+				<span>w</span>
+			</h1>
+			<div class="swiper-container review-slider">
+			
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/jannat.nur.338863"><img src="images/picture-18.jpg" alt="picture-18"></a>
+							<h3>Jannat Nur</h3>
+							<p>Good Services</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+					</div>	
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/m.ROKIBUL.HASSAN.17"><img src="images/picture-19.jpg" alt="picture-19"></a>
+							<h3>Md Rokibul Hassan</h3>
+							<p>Thanks for Good Services</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+							</div>
+						</div>
+					</div>	
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/bizutouchy"><img src="images/picture-20.jpg" alt="picture-20"></a>
+							<h3>Monjur Alahi Bizu</h3>
+							<p>Good Facility</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+					</div>	
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/farhana.yesmin.7374"><img src="images/picture-21.jpg" alt="picture-21"></a>
+							<h3>Farhana Yasmin Prottasha</h3>
+							<p>Good service, especially the guide</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="box">
+							<img src="images/picture-22.jpg" alt="picture-22">
+							<h3>Md Fazle Rabby</h3>
+							<p>Please feel free to publish my post in your site.</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+					</div>	
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/profile.php?id=100030269237877"><img src="images/picture-23.jpg" alt="picture-23"></a>
+							<h3>Kashfia Rahman Kabbo</h3>
+							<p>very helfull</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/Engineer.romansarkar"><img src="images/picture-24.jpg" alt="picture-24"></a>
+							<h3>MD Roman Sarkar</h3>
+							<p>very helfull site</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="box">
+							<a href="https://www.facebook.com/Mahedi.Ahad"><img src="images/picture-25.jpg" alt="picture-25"></a>
+							<h3>মোঃ মেহেদী হাসান</h3>
+							<p>The lower the price, the better Services</p>
+							<div class="stars">
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star checked"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</section
+		
+		<!--Review Section Ends-->
+		
+		<!--Contact Section Start-->
+			<section class="contact" id="contact">
+				<h1 class="heading">
+					<span>c</span>
+					<span>o</span>
+					<span>n</span>
+					<span>t</span>
+					<span>a</span>
+					<span>c</span>
+					<span>t</span>
+				</h1>
+				
+				<div class="row">
+					<div class="image">
+						<img src="images/picture-26.jpg" alt="picture-26"/>
+					</div>
+					
+					<form action="">
+						 <div class="inputBox">
+							<input type="text" placeholder="Type Your Name">
+							<input type="email" placeholder="Type Your email">
+						 </div>
+						 <div class="inputBox">
+							<input type="number" placeholder="Type Your Number">
+							<input type="text" placeholder="Type Your subject">
+						 </div>
+						 <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+						 <input type="submit" class="btn" value="sent message">
+					</form>
+				</div>
+			</section>
+		
+		<!--Contact Section Ends-->
+		
+		<!--Footer Section Start-->
+		<section class="footer">
+		<div class="box-container">
+			<div class="box footer-list">
+				<h3>about us</h3>
+				<ul>
+					<li>High-quality photography.</li>
+					<li>A brief summary of the area, with highlights of important places.</li>
+					<li>Hotel recommendations with web links to hotel and booking sites.</li>
+					<li>Information about recreation and outdoor activities.</li>
+				</ul>
+			</div>
+
+			<div class="box">
+				<h3>branch location</h3>
+				<a href="#">Bangladesh</a>
+				<a href="#">Pakistan</a>
+				<a href="#">Usa</a>
+				<a href="#">Itali</a>
+				<a href="#">Srilanka</a>
+			</div>
+			<div class="box">
+				<h3>quick link</h3>
+				<a href="#home">home</a>
+				<a href="#book">book</a>
+				<a href="#packages">package</a>
+				<a href="#services">services</a>
+				<a href="#contact">contact</a>
+			</div>
+
+			<div class="box">
+				<h3>follow us</h3>
+				<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">facebook</a>
+				<a href="https://twitter.com/?lang=en" target="_blank">twiter</a>
+				<a href="https://www.instagram.com/?hl=en" target="_blank">instragram</a>
+				<a href=https://web.whatsapp.com/" target="_blank">Whatsapp</a>
+				<a href="https://www.linkedin.com/signup" target="_blank">Linkedin</a>
+			</div>
+			
+			</div>
+			<h1 class="credit">Copyright @ 2023 <span>Md Rokibul Hassan</span> | all rights reserved!</h1>
+		</section>
+		<!--Footer Section Ends-->
+
+		<!--JavaScript Link-->
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		
+	    <!-- Custom js file link -->
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>
